@@ -7,6 +7,9 @@ module.exports = {
         blue: {
           650: '#1877f2'
         },
+        red: {
+          550: '#fa3e3e'
+        },
         'green-vivid': '#42b72a',
       },
     },
