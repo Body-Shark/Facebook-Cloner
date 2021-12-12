@@ -12,6 +12,7 @@ module.exports = {
         },
         'green-vivid': '#42b72a',
       },
+      transform: ['hover', 'focus'],
     },
     
   },  

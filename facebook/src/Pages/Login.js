@@ -21,8 +21,8 @@ class Login extends Component {
               </p>
 
               <div className="flex gap-3">
-                <div className="w-40 border rounded-md mt-6 bg-white cursor-pointer hover:scale-125">
-                  <div className="w-4 h-4 bg-gray-200 opacity-70 left-1 top-1 rounded-full float-left z-10 relative text-center text-gray-700 items-center flex justify-center text-xs hover:scale-125">x</div>
+                <div className="w-40 border rounded-md mt-6 bg-white cursor-pointer transform hover:scale-105 transition-all">
+                  <div className="w-4 h-4 bg-gray-200 opacity-70 left-1 top-1 rounded-full float-left z-10 relative text-center text-gray-700 items-center flex justify-center text-xs transform hover:scale-125 transition-all hover:opacity-100">x</div>
                   <div className="w-5 h-5 bg-red-550 rounded-full float-right z-10 -right-2 -top-2 relative text-center text-white items-center flex justify-center text-xs">
                     {notify}
                   </div>
@@ -36,7 +36,7 @@ class Login extends Component {
                     Fernando
                   </div>
                 </div>
-                <div className="w-40 border rounded-lg mt-6 bg-white cursor-pointer hover:scale-125">
+                <div className="w-40 border rounded-lg mt-6 bg-white cursor-pointer transform hover:scale-105 transition-all">
                   <div className="w-full h-40 rounded-md rounded-b-none bg-gray-100 flex items-center justify-center">
                     <img src={PlusImg} alt="" />
                   </div>
@@ -69,23 +69,22 @@ class Login extends Component {
               </div>
             </div>
             <div className="block text-center mt-4 text-sm">
-              <spam
-                className="font-bold
-          "
+              <p
+                className="font-bold"
               >
                 Criar uma Página
-              </spam>{" "}
+              </p>{" "}
               para uma celebridade, uma marca ou uma empresa.
             </div>
           </div>
         </div>
         <div className="w-full grid justify-center items-center">
           <div className="px-32 py-5">
-            <p className="text-gray-500 pl-4 text-xs mb-2">
-              <a href="">Português (Brasil)</a> <a href="">English (US)</a>{" "}
-              <a href="">Español Français (France)</a> <a href="">Italiano</a>
-              <a href="">Deutsch</a> <a href="">العربية</a>{" "}
-              <a href="">हिन्दी 中文(简体</a>) <a href="">日本語</a>
+            <p className="text-gray-500 pl-4 text-xs mb-2 flex gap-3">
+              <a href="/">Português (Brasil)</a> <a href="/">English (US)</a>{" "}
+              <a href="/">Español Français (France)</a> <a href="/">Italiano</a>
+              <a href="/">Deutsch</a> <a href="/">العربية</a>{" "}
+              <a href="/">हिन्दी 中文(简体</a>) <a href="/">日本語</a>
             </p>
             <hr />
           </div>
