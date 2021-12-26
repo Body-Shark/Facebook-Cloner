@@ -21,13 +21,13 @@ class Login extends Component {
               </p>
 
               <div className="flex gap-3">
-                <div className="w-40 border rounded-md mt-6 bg-white cursor-pointer transform hover:scale-105 transition-all">
-                  <div className="w-4 h-4 bg-gray-200 opacity-70 left-1 top-1 rounded-full float-left z-10 relative text-center text-gray-700 items-center flex justify-center text-xs transform hover:scale-125 transition-all hover:opacity-100">x</div>
+                <div className="w-40 border rounded-md mt-6 bg-white cursor-pointer hover:shadow-xl transition-all">
+                  <div className="w-4 h-4 bg-gray-500 opacity-70 left-1 top-1 rounded-full float-left z-10 relative text-center text-gray-200 items-center flex justify-center text-xs transform hover:scale-125 transition-all hover:bg-white hover:text-gray-700"><i className='bx bx-x text-sm'></i></div>
                   <div className="w-5 h-5 bg-red-550 rounded-full float-right z-10 -right-2 -top-2 relative text-center text-white items-center flex justify-center text-xs">
                     {notify}
                   </div>
                   <img
-                    src="https://scontent.fcxj5-1.fna.fbcdn.net/v/t1.6435-1/p160x160/69618903_433613227496947_3470654954685857792_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=dbb9e7&amp;_nc_ohc=75Vo4x3hYncAX8zkHYr&amp;_nc_ht=scontent.fcxj5-1.fna&amp;oh=c184bc5926e7e0e577087a17b14eaeb8&amp;oe=61B75A00"
+                    src="https://scontent.fcxj5-1.fna.fbcdn.net/v/t39.30808-1/p160x160/258724374_985763652281899_4829020367440749229_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=lYIS5hm3GQsAX-wRSFP&_nc_ht=scontent.fcxj5-1.fna&oh=00_AT-U8QRYVOlhbHly-JNk3M-i36PxiE85xCKvDaZ-71Sv7A&oe=61CCBB02"
                     alt=""
                     label="Fernando Nunes"
                     className="rounded-md rounded-b-none relative -top-5"
@@ -36,7 +36,7 @@ class Login extends Component {
                     Fernando
                   </div>
                 </div>
-                <div className="w-40 border rounded-lg mt-6 bg-white cursor-pointer transform hover:scale-105 transition-all">
+                <div className="w-40 border rounded-lg mt-6 bg-white cursor-pointer hover:shadow-xl  transition-all">
                   <div className="w-full h-40 rounded-md rounded-b-none bg-gray-100 flex items-center justify-center">
                     <img src={PlusImg} alt="" />
                   </div>
