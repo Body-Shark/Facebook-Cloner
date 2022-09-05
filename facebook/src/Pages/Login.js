@@ -27,7 +27,7 @@ class Login extends Component {
                     {notify}
                   </div>
                   <img
-                    src="https://scontent.fcxj5-1.fna.fbcdn.net/v/t39.30808-1/p160x160/258724374_985763652281899_4829020367440749229_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=lYIS5hm3GQsAX-wRSFP&_nc_ht=scontent.fcxj5-1.fna&oh=00_AT-U8QRYVOlhbHly-JNk3M-i36PxiE85xCKvDaZ-71Sv7A&oe=61CCBB02"
+                    src="https://avatars.githubusercontent.com/u/76191426?s=400&u=a959eb0d10e180769731590f5410af9e78c08e2c&v=4"
                     alt=""
                     label="Fernando Nunes"
                     className="rounded-md rounded-b-none relative -top-5"
